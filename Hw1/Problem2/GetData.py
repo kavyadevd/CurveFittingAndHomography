@@ -1,17 +1,26 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# ## Generate dataset from video
+# #### In this step, the inout video is read frame by frame.
+# ####  For each frame, the red channel is filtered and the top, bottom and center coordinate of the red ball are stored in a csv file
+
+# In[3]:
+
+
 import cv2
 import numpy as np
 import  csv
 import imutils
 
-print('Enter name of csv:')
-path = input()
-print('Enter name of video:')
-video = input()
-if not (path):
-    path = "output1.csv"
-if not (video):
-    video = "ball_video1.mp4"
-
+# print('Enter name of csv:')
+# path = input()
+# print('Enter name of video:')
+# video = input()
+# if not (path):
+path = "output1.csv"
+# if not (video):
+video = "ball_video1.mp4"
 
 # Variables to write data in csv file
 oFile = open(path,"w")
@@ -29,6 +38,13 @@ while not video_.isOpened():
 # variables to store ball x-y coordinates
 ball_x =[]
 ball_y =[]
+
+
+# ###### Read video and store data
+
+# In[4]:
+
+
 
 # read video frame by frame
 pos_frame = video_.get(cv2.CAP_PROP_POS_FRAMES)
@@ -75,3 +91,4 @@ while True:
     if video_.get(cv2.CAP_PROP_POS_FRAMES) == video_.get(cv2.CAP_PROP_FRAME_COUNT): 
         # traversed all frames
         break
+
