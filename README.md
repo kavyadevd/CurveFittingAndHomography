@@ -1,4 +1,4 @@
-#  Perception for Autonomous Robots
+#  Curve fit methods and Homography
 ### Week 1
 
 The problem statement for this repository can be found [here](https://github.com/kavyadevd/Perception-673/blob/9ab28ab1edf35e4415fe6c4bffec4296c3584c36/Hw1/Homework1.pdf)
