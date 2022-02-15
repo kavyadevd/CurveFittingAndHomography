@@ -13,11 +13,20 @@ python3 Kavya_hw1/Problem2/PythonCodes/GetData.py
 Enter path to the csv file and input video when prompted <br>
 This will generate two files a graph plot png images with coordinate plots and a csv file with ball x,y coordinates
 
+![video1plot](https://user-images.githubusercontent.com/13993518/153971170-d725cc8b-d468-40a5-a33f-1f29e5590ebf.png)
+![video2plot](https://user-images.githubusercontent.com/13993518/153971258-db84f542-3ca9-4d50-98cf-ca6decf7b310.png)
+
+
 ##### Run linear least square
 ```bash
 python3 Kavya_hw1/Problem2/PythonCodes/LSS.py
 ```
 This will generate two graph plot png images, with curve fit output of two videos
+
+![curvefit1](https://user-images.githubusercontent.com/13993518/153971307-f941bf47-ba01-4057-b561-724a4848e4c5.png)
+
+![curvefit2](https://user-images.githubusercontent.com/13993518/153971268-97f58856-63a8-431d-8f2e-ee2a60dabcbd.png)
+
 
 >> Make sure the csv files and video files are in the same folder as the python code files
 >> The code and output is also present in the jupyter notebooks present in the /Notebook folder
